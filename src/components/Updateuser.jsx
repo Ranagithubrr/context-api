@@ -9,7 +9,11 @@ const Updateuser = () => {
     sex: user.sex
   })
   const Updateuser = () => {
-    console.log('updated data is:', updatedData)
+    setUser({
+      name: updatedData.name,
+      age: updatedData.age,
+      sex: updatedData.sex
+    })
   }
   return (
     <div className='my-2'>
